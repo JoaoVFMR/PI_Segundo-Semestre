@@ -1,0 +1,32 @@
+{
+  "name": "api_typescript",
+  "version": "1.0.0",
+  "description": "1. npm init -y\r 2. npm i -D typescript ts-node @types/node\r 3. npx tsc --init\r 4. npm i express\r 5. npm i -D @types/express\r 6. npm i -D prisma\r 7. npx prisma init\r 8. npx prisma db push\r 9. npm i -D @swc/core @swc/helpers nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon --exec ts-node --swc src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.7.28",
+    "@swc/helpers": "^0.5.13",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.0",
+    "@types/node": "^22.7.3",
+    "bcrypt": "^5.1.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "express": "^4.21.1",
+    "jose": "^5.9.4",
+    "prisma": "^5.20.0"
+  }
+}
