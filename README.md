@@ -1,9 +1,6 @@
-1. npm init -y
-2. npm i -D typescript ts-node @types/node
-3. npx tsc --init
-4. npm i express
-5. npm i -D @types/express
-6. npm i -D prisma
-7. npx prisma init
-8. npx prisma db push
-9. npm i -D @swc/core @swc/helpers nodemon
+Repositório do Projeto Integrador para a conclusão do segundo semestre do curso de Desenvolvimento de Software Multiplataforma - FATEC.
+
+Integrantes:
+Adriano dos Santos
+João Vitor Fernandes de Matos Rocha
+Matheus Henrique Almeida Vieira Neves
